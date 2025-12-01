@@ -4,7 +4,7 @@ import Image from "next/image";
 import Logo from "@/public/Logo.png";
 import { Menu, SunMoon } from "lucide-react";
 import { useState } from "react";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 import Link from "next/link";
 
 

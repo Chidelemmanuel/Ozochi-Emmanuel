@@ -1,22 +1,47 @@
 import Image from "next/image";
 import Passport from "@/public/passport.jpg";
+import { Facebook, Github, Instagram, Twitter, Linkedin } from "lucide-react";
+import Link from "next/link"
 
 export default function Hero() {
     return (
-        <div className="flex flex-col items-center justify-center text-center h-130 bg-[#000000] text-white px-4  lg:flex-row lg:justify-around 2xl:w-[60%] mx-auto">
-            <div className="flex flex-col items-center my-15"> 
-                <h4 className="text-2xl lg:text-5xl text-[#fcfc] font-bold"> Hello, my name is</h4>
-                <h1 className="text-3xl lg:text-6xl font-extrabold">Ozochi <span className="text-red-500">Emmanuel</span></h1>
-                <h3 className="text-2xl lg:text-3xl font-bold">I am a <span className="text-red-500"> Frontend</span> Engineer.</h3>
+        <div className="flex flex-col items-center w-full bg-[#000000]">
+            <div className="flex flex-col justify-center items-center text-center h-screen w-full text-white px-4 lg:flex-row lg:justify-around 2xl:w-[60%] mx-auto">
+                <div className="flex flex-col items-center mt-30"> 
+                    <h4 className="text-2xl lg:text-5xl text-[#fcfc] font-bold"> Hello, my name is</h4>
+                    <h1 className="text-3xl lg:text-6xl font-extrabold">Ozochi <span className="text-red-500">Emmanuel</span></h1>
+                    <h3 className="text-2xl lg:text-3xl font-bold">I am a <span className="text-red-500"> Frontend</span> Engineer.</h3>
+                </div>
+
+                <span className="flex flex-col mt-10">
+                    <Image src={Passport} alt="Passport" className="rounded-full w-[300px] lg:w-[400px]" /> 
+                </span>
+                
             </div>
 
-            <span className="flex flex-col">
-                <Image src={Passport} alt="Passport" className="rounded-full w-[300px] lg:w-[400px]" /> 
-            </span>
+            <section className="flex gap-2 my-12 lg:gap-10 items-start">
+                <span className="rounded-full bg-red-500 p-3 cursor-pointer hover:bg-transparent hover:border-[3px] hover:border-red-500 transition">
+                    <Link href="https://www.facebook.com/youngozo.dopa" target="_blank"> <Facebook className="w-5 h-5 lg:w-[30px] lg:h-[30px] text-white" /> </Link>
+                </span>
 
-            {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Explore More
-            </button> */}
+                <span className="rounded-full bg-red-500 p-3 cursor-pointer hover:bg-transparent hover:border-[3px] hover:border-red-500 transition">
+                    <Link href="https://github.com/Chidelemmanuel" target="_blank"> <Github className="w-5 h-5 lg:w-[30px] lg:h-[30px] text-white" /> </Link>
+                </span>
+
+                <span className="rounded-full bg-red-500 p-3 cursor-pointer hover:bg-transparent hover:border-[3px] hover:border-red-500 transition">
+                    <Link href="https://www.instagram.com/chidel_emmanuel" target="_blank"> <Instagram className="w-5 h-5 lg:w-[30px] lg:h-[30px] text-white" /> </Link>
+                </span>
+
+                <span className="rounded-full bg-red-500 p-3 cursor-pointer hover:bg-transparent hover:border-[3px] hover:border-red-500 transition">
+                    <Link href="https://www.twitter.com/Ozochi Emmanuel" target="_blank"> <Twitter className="w-5 h-5 lg:w-[30px] lg:h-[30px] text-white" /> </Link>
+                </span>
+
+                <span className="rounded-full bg-red-500 p-3 cursor-pointer hover:bg-transparent hover:border-[3px] hover:border-red-500 transition">
+                    <Link href="https://www.linkedin.com/in/emmanuel-ozochi-45b835247/" target="_blank"> <Linkedin className="w-5 h-5 lg:w-[30px] lg:h-[30px] text-white" /> </Link>
+                </span>
+
+            </section>
+         
         </div>
     );
 }
