@@ -15,8 +15,8 @@ export default function Navbar() {
     }
 
     return (
-        <nav className="flex w-full bg-[#000000] 2xl:w-[60%] mx-auto flex-col">
-            <div className="w-full flex items-center justify-between py-2 px-4">
+        <nav className="flex w-full bg-[#000000] flex-col">
+            <div className="w-full flex items-center justify-between py-2 px-4 2xl:w-[60%] mx-auto">
                 <span className="max-w-[60px] lg:max-w-[100px]">
                     <Image src={Logo} alt="Logo" className="rounded-full w-full h-full object-cover"/>
                 </span>
