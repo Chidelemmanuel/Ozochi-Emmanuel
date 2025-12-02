@@ -4,6 +4,7 @@ import Navbar from "@/Components/Navbar";
 import Project from "@/Components/Project";
 import Services from "@/Components/Services";
 import Sidebar from "@/Components/Sidebar";
+import Contact from "@/Components/Contact"
 
 export default function Portfolio() {
     return (
@@ -14,6 +15,7 @@ export default function Portfolio() {
             <About />
             <Services />
             <Project />
+            <Contact />
        </div>
     )
 }
