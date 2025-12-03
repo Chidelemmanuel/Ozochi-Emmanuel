@@ -11,7 +11,10 @@ import Link from "next/link"
 export default function Project () {
     return (
         <div className="flex flex-col items-center bg-[#242121] text-white mx-auto overflow-x-hidden">
-            <h1 className="text-3xl mt-5 font-bold lg:text-5xl">My Projects</h1>
+            <h2 className="text-center text-3xl font-bold mt-12 relative">
+                My Projects
+                <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>
+            </h2>
 
             <p className="italic mt-7 text-center text-[12px] lg:text-2xl">Here are some of my recent projects showcasing my skills and expertise in frontend development.</p>
 

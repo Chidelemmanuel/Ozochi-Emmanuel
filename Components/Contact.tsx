@@ -4,12 +4,15 @@ import Link from "next/link"
 export default function Contact () {
     return (
         <div className="flex flex-col items-center mx-auto bg-[#191919] text-white">
-            <h1 className="text-xl font-bold mt-10 lg:text-5xl">Contact</h1>
+            <h2 className="text-center text-3xl font-bold mt-12 relative">
+                Contact
+                <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>
+            </h2>
 
-            <p className="text-center my-5">Have a project in mind or want to collaborate? Feel free to reach out to me through the form below or directly via email.</p>
+            <p className="text-center text-[12px] my-5 lg:text-xl lg:my-10">Have a project in mind or want to collaborate? Feel free to reach out to me through the form below or directly via email.</p>
 
-            <div className="flex flex-col justify-between mt-10 lg:flex-row gap-20">
-                <div className="py-13 px-5 space-y-15 lg:w-xl lg:flex flex-col items-center lg:py-20">
+            <div className="flex flex-col justify-between lg:flex-row gap-20">
+                <div className="py-13 px-5 space-y-15 lg:w-xl lg:flex flex-col items-center lg:py-10">
                     <section className="flex flex-col">
                         <span className="flex gap-5 font-bold">
                             <PhoneIncoming className="w-6 h-6 lg:w-10 lg:h-10 text-red-500" />
@@ -56,7 +59,7 @@ export default function Contact () {
                         <label className="font-bold"> Message </label>
                         <textarea rows={5}  className="p-4 border-2 border-red-500 rounded-lg outline-none focus:ring-2 focus:ring-red-500" id="" placeholder="Enter Your Message" ></textarea>
 
-                        <button type="submit" className="bg-red-500 text-white font-semibold py-3 rounded-lg hover:bg-red-600 transition cursor-pointer">
+                        <button type="submit" className="bg-red-500 text-white font-semibold mt-5 py-3 rounded-lg hover:bg-red-600 transition cursor-pointer">
                             Send Message
                         </button>
 

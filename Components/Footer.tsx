@@ -56,7 +56,7 @@ export default function Footer () {
                 </div>
 
                 <div className="flex justify-center">
-                    <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-full font-bold transition"> Buy me a Coffee </button>
+                    <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-full font-bold transition cursor-pointer"> Buy me a Coffee </button>
                 </div>
 
             </div>
