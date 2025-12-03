@@ -3,8 +3,9 @@
 import Image from "next/image";
 import Passport from "@/public/passport.jpg";
 import { ReactTyped } from "react-typed";
-import { Facebook, Github, Twitter, Linkedin } from "lucide-react";
+import { Facebook, Github, Twitter, Linkedin, ChevronsUp } from "lucide-react";
 import Link from "next/link"
+import Sidebar from "./Sidebar";
 
 export default function Hero() {
 
@@ -56,6 +57,8 @@ export default function Hero() {
                 </span>
 
             </section>
+
+            {/* <Sidebar /> */}
          
         </div>
     );

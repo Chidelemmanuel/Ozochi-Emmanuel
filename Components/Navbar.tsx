@@ -2,16 +2,17 @@
 
 import Image from "next/image";
 import Logo from "@/public/Logo.png";
-import { Menu, SunMoon } from "lucide-react";
+import { Menu, SunMoon, X } from "lucide-react";
 import { useState } from "react";
-// import Sidebar from "./Sidebar";
+import Sidebar from "./Sidebar";
 import Link from "next/link";
 
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+
     function toggleMenu() {
-        console.log(setIsOpen(!isOpen)); 
+        setIsOpen((prev) => !prev); 
     }
 
     return (
@@ -32,20 +33,19 @@ export default function Navbar() {
                 <span className="flex gap-7 text-white"> 
                     <SunMoon size={30} /> 
                     <Menu size={35} onClick={toggleMenu} className="lg:hidden"/> 
+                    <X size={50} className="hidden lg:hidden" />
                 </span>
-
-                {/* <Sidebar /> */}
 
                 <Link href="#" className="hidden lg:block">
                     <button className="bg-red-500 font-bold text-white rounded py-2 cursor-pointer px-5">Buy me a Coffee</button>
                 </Link>
 
-
             </div>
 
            <hr className="border border-white w-full" />
-        </nav>
 
+           {isOpen && <Sidebar closeSidebar={() => setIsOpen(false)} />}
+        </nav>
 
     )
 }
