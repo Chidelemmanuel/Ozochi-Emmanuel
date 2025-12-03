@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Passport from "@/public/passport.jpg";
+// import Resume from "";
 import { Facebook, Github, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link"
 
@@ -12,7 +13,9 @@ export default function Hero() {
                     <h1 className="text-3xl lg:text-6xl font-extrabold">Ozochi <span className="text-red-500">Emmanuel</span></h1>
                     <h3 className="text-2xl lg:text-3xl font-bold">I am a <span className="text-red-500"> Frontend</span> Engineer.</h3>
 
-                    <button className="rounded-full font-bold border-2 border-red-500 p-5 mt-10 hover:bg-red-500 cursor-pointer"> Download Resume </button>
+                    <a href="https://drive.google.com/uc?export=download&id=1_JRu8j6fY9NRcxaW0iIWJekFVqbIpWq2" rel="noopener noreferrer">
+                        <button className="rounded-full font-bold border-2 border-red-500 p-5 mt-10 hover:bg-red-500 cursor-pointer"> Download Resume </button>
+                    </a>
                 </div>
 
                 <span className="flex flex-col mt-10">
