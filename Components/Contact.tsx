@@ -69,8 +69,10 @@ export default function Contact () {
             <section className="flex flex-col items-center text-xl my-20 lg:text-2xl">
                 <h2 className="capitalize">Let me get you a beautiful website</h2>
 
-                <Link href="https://wa.me/+2349032766169" target="_blank">
-                    <button className="bg-red-500 py-3 px-5 rounded-full font-bold mt-10 hover:bg-transparent border-3 border-red-500 cursor-pointer">Hire Me</button>
+                <Link href="https://wa.me/2349032766169?text=Hi%20Emmanuel,%0A%0AI%20would%20like%20to%20hire%20you%20for%20a%20project.%0AService%20needed:%20__________%0A%0AThank%20you."
+                    target="_blank"
+                    >
+                    <button className="bg-red-500 py-3 px-5 rounded-full font-bold mt-10 hover:bg-transparent border-2 border-red-500 cursor-pointer"> Hire Me </button>
                 </Link>
 
             </section>

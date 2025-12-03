@@ -32,7 +32,7 @@ export default function Hero() {
 
 
                 <span className="rounded-full bg-red-500 p-3 cursor-pointer hover:bg-transparent hover:border-[3px] hover:border-red-500 transition">
-                    <Link href="https://www.twitter.com/Ozochi Emmanuel" target="_blank"> <Twitter className="w-5 h-5 lg:w-[30px] lg:h-[30px] text-white" /> </Link>
+                    <Link href="https://www.twitter.com/Ozoronebillion" target="_blank"> <Twitter className="w-5 h-5 lg:w-[30px] lg:h-[30px] text-white" /> </Link>
                 </span>
 
                 <span className="rounded-full bg-red-500 p-3 cursor-pointer hover:bg-transparent hover:border-[3px] hover:border-red-500 transition">
