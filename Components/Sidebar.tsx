@@ -9,11 +9,8 @@ export default function Sidebar({
 }) {
     return (
        <div className="flex flex-col bg-[#181919] text-white py-7 w-full lg:hidden">
-            <span className="px-5 cursor-pointer" onClick={closeSidebar}>
-                <X size={50}/>
-            </span>
 
-            <ul className="uppercase text-[1F1F1F] mt-10 space-y-5 px-5">
+            <ul className="uppercase text-[1F1F1F] space-y-5 px-5">
                 <span className="flex gap-5 cursor-pointer items-center">
                     <House size={25} color="red" />
                     <li>Home</li>

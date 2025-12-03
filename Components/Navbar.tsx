@@ -32,8 +32,25 @@ export default function Navbar() {
 
                 <span className="flex gap-7 text-white"> 
                     <SunMoon size={30} /> 
-                    <Menu size={35} onClick={toggleMenu} className="lg:hidden"/> 
-                    <X size={50} className="hidden lg:hidden" />
+
+                    {!isOpen && (
+                        <Menu
+                        size={35}
+                        onClick={toggleMenu}
+                        className="lg:hidden cursor-pointer"
+                        />
+                    )}
+
+                    {isOpen && (
+                        <X
+                        size={35}
+                        onClick={toggleMenu}
+                        className="lg:hidden cursor-pointer"
+                        />
+                    )}
+                    
+                    {/* <Menu size={35} onClick={toggleMenu} className="lg:hidden"/>  */}
+                    {/* <X size={50} className="hidden lg:hidden" /> */}
                 </span>
 
                 <Link href="#" className="hidden lg:block">
