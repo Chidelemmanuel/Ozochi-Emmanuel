@@ -5,6 +5,7 @@ import Project from "@/Components/Project";
 import Services from "@/Components/Services";
 import Sidebar from "@/Components/Sidebar";
 import Contact from "@/Components/Contact"
+import Footer from "@/Components/Footer";
 
 export default function Portfolio() {
     return (
@@ -16,6 +17,7 @@ export default function Portfolio() {
             <Services />
             <Project />
             <Contact />
+            <Footer />
        </div>
     )
 }
