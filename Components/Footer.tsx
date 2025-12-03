@@ -61,7 +61,7 @@ export default function Footer () {
 
             </div>
 
-            <section className="flex flex-col items-center text-white">
+            <section className="flex flex-col py-5 items-center text-white">
 
                 <hr className="mt-5 w-full border-gray-300" />
 
