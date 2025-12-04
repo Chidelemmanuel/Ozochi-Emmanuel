@@ -15,7 +15,7 @@ export default function Portfolio() {
             <Services />
             <Project />
             <Contact />
-            <Footer />
+            <Footer />   
        </div>
     )
 }
