@@ -29,8 +29,7 @@ export default function Navbar() {
   if (!mounted) return null;
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-1 flex w-full bg-[#000000] flex-col">   
-        {/* <nav className="flex w-full bg-white dark:bg-black flex-col transition-colors duration-300 "> */}
+        <nav className="fixed top-0 left-0 right-0 z-50 flex w-full bg-[#000000] flex-col">   
             <div className="w-full flex items-center justify-between py-2 px-4 2xl:w-[60%] mx-auto">
                 <span className="max-w-[60px] lg:max-w-[100px]">
                     <Image src={Logo} alt="Logo" className="rounded-full w-full h-full object-cover"/>

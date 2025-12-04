@@ -5,7 +5,7 @@ import Mobile from "@/public/Mobile app development company Toronto _ SKYHiDEV.j
 
 export default function Services () {
     return (
-        <div id="services"  className="flex flex-col items-center bg-[#101010] text-white py-10">
+        <div id="services"  className="flex flex-col items-center bg-[#101010] scroll-mt-20 text-white py-10">
             <h2 className="text-center text-3xl font-bold my-5 relative">
                 My Services
                 <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>

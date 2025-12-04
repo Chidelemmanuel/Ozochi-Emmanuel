@@ -26,7 +26,7 @@ export default function AboutMe() {
     ];
 
   return (
-    <section id="about"  className="w-full bg-[#242121] text-white py-16 px-6 lg:px-20">
+    <section id="about" className="w-full bg-[#242121] scroll-mt-20 text-white py-16 px-6 lg:px-20">
       <h2 className="text-center text-3xl font-bold mb-12 relative">
         About Me
         <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>

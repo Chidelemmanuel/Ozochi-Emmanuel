@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Contact () {
     return (
-        <div id="contact"  className="flex flex-col items-center mx-auto bg-[#191919] text-white">
+        <div id="contact"  className="flex flex-col items-center mx-auto bg-[#191919] text-white scroll-mt-20">
             <h2 className="text-center text-3xl font-bold mt-12 relative">
                 Contact
                 <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>
