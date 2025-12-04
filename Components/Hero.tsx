@@ -3,14 +3,13 @@
 import Image from "next/image";
 import Passport from "@/public/passport.jpg";
 import { ReactTyped } from "react-typed";
-import { Facebook, Github, Twitter, Linkedin, ChevronsUp } from "lucide-react";
+import { Facebook, Github, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link"
-import Sidebar from "./Sidebar";
 
 export default function Hero() {
 
     return (
-        <div className="flex flex-col items-center w-full bg-[#000000] 2xl:w-[60%] mx-auto">
+        <div id="home"  className="flex flex-col items-center w-full bg-[#000000] pt-[90px] 2xl:w-[60%] mx-auto">
             <div className="flex flex-col justify-center items-center text-center h-screen w-full text-white px-4 lg:flex-row lg:justify-between 2xl:w-[60%] mx-auto">
                 <div className="flex flex-col items-center mt-10"> 
                     <h4 className="text-2xl lg:text-5xl text-[#fcfc] font-bold"> Hello, my name is</h4>
@@ -57,9 +56,6 @@ export default function Hero() {
                 </span>
 
             </section>
-
-            {/* <Sidebar /> */}
-         
         </div>
     );
 }
