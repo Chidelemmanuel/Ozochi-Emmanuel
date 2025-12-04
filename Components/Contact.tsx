@@ -9,7 +9,7 @@ export default function Contact () {
                 <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>
             </h2>
 
-            <p className="text-center text-[12px] my-5 lg:text-xl lg:my-10">Have a project in mind or want to collaborate? Feel free to reach out to me through the form below or directly via email.</p>
+            <p className="text-center text-[12px] px-5 my-5 lg:text-xl lg:my-10">Have a project in mind or want to collaborate? Feel free to reach out to me through the form below or directly via email.</p>
 
             <div className="flex flex-col justify-between lg:flex-row gap-20">
                 <div className="py-13 px-5 space-y-15 lg:w-xl lg:flex flex-col items-center lg:py-10">

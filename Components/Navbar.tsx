@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Logo from "@/public/Logo.png";
 import { Menu, SunMoon, X, Sun } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useTheme } from "next-themes";
 import Sidebar from "./Sidebar";
 import Link from "next/link";
@@ -11,12 +11,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-    const { theme, setTheme } = useTheme();
-    const [mounted, setMounted] = useState(false);
-
-    useEffect(() => {
-    setMounted(true);
-  }, []);
+    const { theme, setTheme, resolvedTheme } = useTheme();
 
   function toggleMenu() {
     setIsOpen((prev) => !prev);
@@ -26,11 +21,11 @@ export default function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   }
 
-  if (!mounted) return null;
+  if (!resolvedTheme) return null;
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 flex w-full bg-[#000000] flex-col">   
-            <div className="w-full flex items-center justify-between py-2 px-4 2xl:w-[60%] mx-auto">
+            <div className="w-full flex items-center justify-between py-2 px-4 lg:px-20 2xl:w-[60%] mx-auto">
                 <span className="max-w-[60px] lg:max-w-[100px]">
                     <Image src={Logo} alt="Logo" className="rounded-full w-full h-full object-cover"/>
                 </span>
@@ -81,9 +76,9 @@ export default function Navbar() {
                 </span>
 
                 <Link href="#" className="hidden lg:block">
-                    <button className="bg-red-500 font-bold text-white rounded py-2 cursor-pointer px-5">Buy me a Coffee</button>
+                    <button className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-full font-bold transition cursor-pointer"> Buy me a Coffee </button>
                 </Link>
-
+                
             </div>
 
            <hr className="border border-white w-full" />
