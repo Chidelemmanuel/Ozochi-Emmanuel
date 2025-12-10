@@ -17,7 +17,7 @@ export default function Project () {
 
             <p className="italic mt-7 text-center px-5 text-[12px] lg:text-2xl">Here are some of my recent projects showcasing my skills and expertise in frontend development.</p>
 
-            <div className="flex flex-col lg:grid lg:grid-cols-3 gap-10 p-20  2xl:w-[60%]">
+            <div className="flex flex-col lg:grid lg:grid-cols-3 gap-10 p-20 2xl:w-[80%]">
                 <div className="border border-white rounded-lg hover:scale-105 ease-in duration-300 flex flex-col h-full">
                     <span>
                         <Image src={Ascent} alt="Project Ascent web view" className="rounded-t-lg object contain" />

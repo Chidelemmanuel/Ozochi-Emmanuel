@@ -43,7 +43,7 @@ export default function Contact () {
                     </section>
                 </div>
 
-                <div className="py-3 px-5 lg:w-xl">
+                <div className="py-3 px-5 lg:w-xl lg:px-22">
 
                     <form action="#" method="POST" className="mx-auto max-w-md flex flex-col gap-4">
 

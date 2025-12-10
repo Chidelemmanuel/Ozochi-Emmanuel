@@ -32,7 +32,7 @@ export default function AboutMe() {
         <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>
       </h2>
 
-      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 lg:gap-20 max-w-6xl mx-auto">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-10 lg:gap-20 max-w-6xl lg:px-10 mx-auto">
 
         <div className="bg-[#11121b] rounded-xl p-6 lg:p-10 shadow-lg border border-purple-800/20 max-w-xl">
           <h3 className="text-2xl font-bold mb-4 text-white"> Developer Profile  </h3>

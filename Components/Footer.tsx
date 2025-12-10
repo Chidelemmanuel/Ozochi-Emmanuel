@@ -8,7 +8,7 @@ export default function Footer () {
 
         <div className="lg:flex-col bg-[#242121]">
 
-            <div className="w-full py-10 text-white flex flex-col items-center lg:flex-row lg:justify-between lg:items-center lg:px-20 gap-10 2xl:w-[60%] mx-auto">
+            <div className="w-full py-10 text-white flex flex-col items-center lg:flex-row lg:justify-between lg:items-center lg:px-20 gap-10 2xl:w-[80%] mx-auto">
 
                 <span className="max-w-[100px]">
                     <Image

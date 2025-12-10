@@ -11,7 +11,7 @@ export default function Services () {
                 <span className="block w-20 h-1 bg-red-500 mx-auto mt-2 rounded-full"></span>
             </h2>
 
-            <div className="flex flex-col gap-15 mt-10 mx-auto items-center lg:flex-row my-10 2xl:w-[60%] p-10">
+            <div className="flex flex-col gap-15 mt-10 mx-auto items-center lg:flex-row my-10 2xl:w-[80%] 2xl:px-22 2xl:items-center">
                 <div className="flex flex-col max-w-[350px] bg-[#191919] rounded-md items-center">
                     <span>
                         <Image src={Mobile} alt="Web-Dev-Img" className="w-100 rounded-t-lg object contain" />

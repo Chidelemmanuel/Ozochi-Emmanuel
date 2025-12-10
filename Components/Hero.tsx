@@ -12,7 +12,7 @@ export default function Hero() {
       id="home"
       className="w-full bg-black pt-[90px] scroll-mt-[90px]"
     >
-      <div className="mx-auto w-full max-w-[1440px] px-6 lg:px-20 min-h-[calc(100vh-90px)] flex flex-col justify-center 2xl:w-[60%]">
+      <div className="mx-auto w-full max-w-[1440px] px-6 lg:px-20 min-h-[calc(100vh-90px)] flex flex-col justify-center 2xl:w-[80%]">
 
         <div className="flex flex-col items-center text-center lg:flex-row lg:justify-between lg:text-left gap-16">
 
