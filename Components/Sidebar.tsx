@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link"
-import { X, House, User, FolderOpenDot, MessageSquareQuote, Table } from "lucide-react";
+import { House, User, FolderOpenDot, MessageSquareQuote, Table } from "lucide-react";
 
 export default function Sidebar({
     closeSidebar,

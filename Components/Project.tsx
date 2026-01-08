@@ -4,6 +4,7 @@ import Osmaxin from "@/public/osmaxin.png"
 import Hng from "@/public/audiophile.png"
 import Attendance from "@/public/attendance.png"
 import Hotel from "@/public/hotel.png"
+import Ventlio from "@/public/ventlio.png"
 import { Eye, Github } from "lucide-react";
 import Link from "next/link"
 
@@ -158,7 +159,7 @@ export default function Project () {
                     <div className="mt-auto">
                         <hr className="mx-auto"/>
                         <section className="flex justify-between p-5">
-                            <Link href="#" target="_blank">
+                            <Link href="https://oko-attendance-web-l4lv62l0n-emmanuel-ozochis-projects.vercel.app" target="_blank">
                                 <span className="flex gap-2">
                                     <Eye color="red" />
                                     <h4 className="font-bold">Live</h4>
@@ -208,6 +209,45 @@ export default function Project () {
                                 <span className="flex gap-2">
                                     <Github  color="red"/>
                                     <h4 className="font-bold">Code</h4>
+                                </span>
+                            </Link>    
+                        </section>
+                    </div>
+                </div>
+
+                <div className="border border-white rounded-lg hover:scale-105 ease-in duration-300 flex flex-col h-full">
+                    <span>
+                        <Image src={Ventlio} alt="Ventlio" className="rounded-t-lg object contain" />
+                    </span>
+                    <h2 className="text-xl mt-5 px-2 font-semibold text-red-500 lg:text-4xl"> Ventlio #1 Offline Inventory System </h2>
+                    <p className="mt-5 px-2">
+                        Ventlio is Nigeria&apos;s leading offline-first inventory management and 
+                        business software platform. We&apos;re the best Shopify alternative for African 
+                        businesses, offering quick storefront creation, stock management, and 
+                        complete business operations - all without requiring constant internet 
+                        connectivity.
+                    </p>
+                    <section className="flex flex-col my-10 px-2 space-y-2">
+                        <div className="space-x-3">
+                            <span className="bg-[#7a4747] px-3 py-2 rounded-md">Next.Js</span>
+                            <span className="bg-[#7a4747] px-3 py-2 rounded-md">Typescript</span>
+                            <span className="bg-[#7a4747] px-3 py-2 rounded-md">Tailwindcss</span>
+                        </div>
+                    </section>
+                    <div className="mt-auto">
+                        <hr className="mx-auto"/>
+                        <section className="flex justify-between p-5">
+                            <Link href="https://www.ventlio.com/" target="_blank">
+                                <span className="flex gap-2">
+                                    <Eye color="red" />
+                                    <h4 className="font-bold">Live</h4>
+                                </span>
+                            </Link>
+                            
+                            <Link href="https://github.com/Chidelemmanuel/" target="_blank">
+                                <span className="flex gap-2">
+                                    <Github  color="red"/>
+                                    <h4 className="font-bold">Code</h4> 
                                 </span>
                             </Link>    
                         </section>
